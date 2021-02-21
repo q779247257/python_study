@@ -32,3 +32,34 @@ print(names)
 # 要替换某个元素直接赋值对应的索引
 names[2] = '小蓝'
 print(names)
+
+# list里面的元素的数据类型也可以不同，比如：
+L = ['轩轩',123,True]
+
+# list元素也可以是另一个list，比如：
+Ls = ['python','java','php',L]
+print(len(Ls))
+
+
+# tuple
+# 另一种有序列表叫做元组,tuple和list非常类似,但是tuple一旦初始化就不饿能修改,比如列出同学的名字
+classmates = ("小明","小红","小丽")
+# 现在，classmates这个tuple不能变了，它也没有append()，insert()这样的方法。
+# 其他获取元素的方法和list是一样的，你可以正常地使用classmates[0]，classmates[-1]，
+# 但不能赋值成另外的元素。
+
+
+
+# 练习
+L = [
+    ['Apple', 'Google', 'Microsoft'],
+    ['Java', 'Python', 'Ruby', 'PHP'],
+    ['Adam', 'Bart', 'Lisa']
+]
+
+# 打印Apple:
+print(L[0][0])
+# 打印Python:
+print(L[1][1])
+# 打印Lisa:
+print(L[-1][-1])
