@@ -63,3 +63,6 @@ print(L[0][0])
 print(L[1][1])
 # 打印Lisa:
 print(L[-1][-1])
+
+# 小结
+# list和tuple是Python内置的有序集合，一个可变，一个不可变。根据需要来选择使用它们。
